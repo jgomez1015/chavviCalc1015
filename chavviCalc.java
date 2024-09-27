@@ -5,7 +5,7 @@ package.com.chavviCalc1015;
 import java.util.Scanner; 
 
 public class chavviCalculator { 
-    public static void main(String [args]) {
+    public static void main(String [] args) {
 
     Scanner scan = new Scanner(System.in);
     Character command = '_';
@@ -32,7 +32,7 @@ public class chavviCalculator {
         public static void printMenu(double A, double B) {
         System.out.println(" Chavvi Calculatinator ");
         printMenuLine();
-        System.out.println(" A = " + A , " B = " + B);
+        System.out.println(" A = " + A + " B = " + B);
         printMenuLine(); 
         System.out.println("a      Enter a Value for A");
         System.out.println("b      Enter a Value for B");
