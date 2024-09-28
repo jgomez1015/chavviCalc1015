@@ -64,25 +64,25 @@ public class chavviCalculator {
                 case 'a': 
                 System.out.print("Enter value for A: ");
                 A = scan.nextDouble(); 
-                scan.nextline();
+                scan.nextLine();
                 break; 
                 case 'b': 
                 System.out.print("Enter value for B: ");
                 B = scan.nextDouble();
                 scan.nextLine(); 
                 break; 
-                case '+';
+                case '+':
                 System.out.println("Result is: " + (A + B));
                 break; 
-                case '-';
+                case '-':
                 System.out.println("Result is: " + (A - B));
                 break; 
-                case '*';
+                case '*':
                 System.out.println("Result is: " + (A * B));
                 break; 
-                case '/';
+                case '/':
                 if (B != 0) {
-                    System.out.print("Result is: " + (A / B ));
+                    System.out.println("Result is: " + (A / B ));
                 } else {
                     System.out.println("Error: Can't divide by zero silly!");
                 }
